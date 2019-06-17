@@ -1,8 +1,8 @@
 class Hive < Formula
   desc "Hadoop-based data summarization, query, and analysis"
   homepage "https://hive.apache.org"
-  url "https://www.apache.org/dyn/closer.cgi?path=hive/hive-3.1.1/apache-hive-3.1.1-bin.tar.gz"
-  sha256 "74db1859c3af4fcd39373c6caa99ff4c7e38dff3bcb9a198b7457c63b7e3c054"
+  url "https://www.apache.org/dyn/closer.cgi?path=hive/hive-2.3.4/apache-hive-2.3.4-bin.tar.gz"
+  sha256 "ce86d1c20b1004ef76b33feacf40aa7fc03b49de6299c424335fd7f6e875cea4"
 
   bottle :unneeded
 
