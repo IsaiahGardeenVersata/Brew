@@ -1,4 +1,4 @@
-class Hive < Formula
+class Qhive < Formula
   desc "Hadoop-based data summarization, query, and analysis"
   homepage "https://hive.apache.org"
   url "https://www.apache.org/dyn/closer.cgi?path=hive/hive-2.3.4/apache-hive-2.3.4-bin.tar.gz"
@@ -6,7 +6,7 @@ class Hive < Formula
 
   bottle :unneeded
 
-  depends_on "hadoop"
+  depends_on "qhadoop"
   depends_on :java => "1.7+"
 
   def install
